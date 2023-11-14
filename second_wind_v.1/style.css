@@ -1,0 +1,61 @@
+body{
+    padding:0;
+    margin:0;
+    height:3500px;
+    background: rgb(60, 92, 197);
+}
+
+.blueBox{
+    background: hsl(226, 535, 50%);
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    z-index: +4;
+    margin-left: 73vw;
+    margin-bottom: 95vh vh;
+}
+
+canvas{
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+.sidescroll{
+    position: absolute;
+    z-index: +2;
+    margin-left: 75vw;
+    margin-top: 100vh;
+    text-align: justify;
+    padding-right: 70px;
+    font-family: "Major Mono Display";
+}
+
+
+.main-header{
+    font-size: 50pt;
+    font-family: 'Major Mono Display', monospace;
+    color:white;
+    margin-bottom: 300pt;
+    padding-left: 70%;
+    margin-right: 50pt;
+    line-break: strict;
+    position: fixed;
+    text-align: right;
+    z-index: +3;
+}
+
+.turbine_1{
+    max-height: 200px;
+    position: fixed;
+    top: 46.5%;
+    left: 42.8%;
+    transform: translate(-50%, -50%);
+    z-index: +1;
+}
+
+.background{
+    width:100vw;
+    height:100vh;
+}
+
