@@ -69,13 +69,25 @@ function draw (){
     stroke(256,256,256)
     line(20,750,20,20)
 
-    text(mouseX, 1200, 160);
-    text(mouseY, 1200, 180);
+
+
+// legend     
+
+    strokeWeight(2.5);
+    fill(60, 92, 196);
+    rect(1141,165,281,75);
+
+    // box
+
+        strokeWeight(1);
+        fill(17,med,188,oX1);
+        rect(1170,193,20,20);
 
 
 // megawatt squares
 
     // noStroke()   
+    strokeWeight(0.5);
     
 // <1990s - 1
     fill(17,random(220,240),188,256) //1
@@ -396,3 +408,5 @@ window.onscroll = function(){
 
 
 }
+
+

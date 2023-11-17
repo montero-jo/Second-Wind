@@ -1,16 +1,16 @@
 body{
     padding:0;
     margin:0;
-    height:3500px;
+    height:1500px;
     background: rgb(60, 92, 197);
 }
 
 .blueBox{
-    background: hsl(226, 535, 50%);
+    background: hsl(226,53%,50%);
     position: fixed;
-    height: 200px;
+    height: 300px;
     width: 400px;
-    z-index: +4;
+    z-index: +3;
     margin-left: 73vw;
     margin-bottom: 95vh vh;
 }
@@ -21,14 +21,30 @@ canvas{
     left:0px;
 }
 
+.legend-text{
+    color:white;
+    position: fixed;
+    margin-left: 80.2vw;
+    margin-top: 24.4vh;
+    font-family: "Major Mono Display";
+    font-weight:bold;
+    z-index:+5;
+    font-size: small;
+}
+
+
 .sidescroll{
+    color:white;
     position: absolute;
     z-index: +2;
     margin-left: 75vw;
-    margin-top: 100vh;
+    margin-top: 128vh;
+    padding-right: 72px;
     text-align: justify;
-    padding-right: 70px;
     font-family: "Major Mono Display";
+    font-size: 12px;
+    /* I know it's full of rivers but I coulnd't figure out how to adjust the kerning
+    and hated how it looked without being justified lol*/
 }
 
 
@@ -36,13 +52,13 @@ canvas{
     font-size: 50pt;
     font-family: 'Major Mono Display', monospace;
     color:white;
-    margin-bottom: 300pt;
+    margin-top: 10pt;
     padding-left: 70%;
     margin-right: 50pt;
     line-break: strict;
     position: fixed;
     text-align: right;
-    z-index: +3;
+    z-index: +4;
 }
 
 .turbine_1{
