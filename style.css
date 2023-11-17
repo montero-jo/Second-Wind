@@ -37,11 +37,11 @@ canvas{
     color:white;
     position: absolute;
     z-index: +2;
-    margin-left: 75vw;
+    margin-left: 75.4vw;
     margin-top: 128vh;
-    padding-right: 72px;
-    text-align: justify;
+    padding-right: 71px;
     font-family: "Major Mono Display";
+    text-align: justify;
     font-size: 12px;
     /* I know it's full of rivers but I coulnd't figure out how to adjust the kerning
     and hated how it looked without being justified lol*/
